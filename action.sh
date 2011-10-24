@@ -1,10 +1,10 @@
 #!/bin/bash
 # action.sh - Do something simple
 
-TEST=1
+TEST=0
 
 if [ "$TEST" = "0" ]; then
-    echo "TRUE"
+    echo "TRUE: $USER $UID"
     exit 0
 else
     echo "FALSE"
