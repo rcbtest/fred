@@ -1,7 +1,7 @@
 #!/bin/bash
 # action.sh - Do something simple
 
-TEST=0
+TEST=1
 
 if [ "$TEST" = "0" ]; then
     echo "TRUE"
